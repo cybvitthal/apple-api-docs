@@ -1837,7 +1837,7 @@ public partial class AppDelegate : UIApplicationDelegate
           <AttributeName>ObjCRuntime.BindingImpl(ObjCRuntime.BindingImplOptions.GeneratedCode | ObjCRuntime.BindingImplOptions.Optimizable)</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>ObjCRuntime.Deprecated(ObjCRuntime.PlatformName.iOS, 10, 0, ObjCRuntime.PlatformArchitecture.None, "Use 'UNUserNotificationCenterDelegate.WillPresentNotification/DidReceiveNotificationResponse' for user visible notifications and 'ReceivedRemoteNotification' for silent remote notifications.")</AttributeName>
+          <AttributeName>ObjCRuntime.Deprecated(ObjCRuntime.PlatformName.iOS, 10, 0, ObjCRuntime.PlatformArchitecture.None, "Use 'UNUserNotificationCenterDelegate.WillPresentNotification/DidReceiveNotificationResponse' for user visible notifications and 'DidReceiveRemoteNotification' for silent remote notifications.")</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
